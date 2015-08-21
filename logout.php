@@ -21,7 +21,7 @@ AND MASK1, 128 ; Perform AND operation on the
 ADD MARKS, 10 ; Add 10 to the variable MARKS
 MOV AL, 10 ; Transfer the value 10 to the AL register
 
-
+HELLOWORD PROGRAM
 section . text
  global _start ; must be declared for linker (ld)
 _start:  ; tells linker entry point
